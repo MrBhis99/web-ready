@@ -1,0 +1,70 @@
+.dashboard-admin_dashboardadmin {
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+}
+.container_dashboardadmin {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+.home_dashboardadmin,
+.admin_dashboardadmin {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.halaman-dasboard_dashboardadmin {
+  font-size: 36px;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.line-div_dashboardadmin {
+  border-top: 1px solid #9b9b9b;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.rectangle-parent_dashboardadmin {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.box_dashboardadmin {
+  background-color: #ff8c00;
+  border-radius: 10px;
+  width: calc(25% - 20px);
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  height: 150px;
+}
+
+.box_dashboardadmin img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.box-content_dashboardadmin {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.frame-item_dashboardadmin, .frame-inner_dashboardadmin, .rectangle-div_dashboardadmin, .frame-child1_dashboardadmin {
+  background-color: #ff8c00;
+}

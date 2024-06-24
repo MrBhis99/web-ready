@@ -1,0 +1,115 @@
+/* src/Sidebar-admin.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-admin {
+    width: 300px;
+    background-color: #ff8c00; /* Orange background */
+    color: white;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.profile-admin {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic-admin {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-info-admin h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.profile-info-admin p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.menu-admin {
+    margin-right: 30px;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-item-admin {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffa500; /* Lighter orange for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.menu-item-admin:hover {
+    background-color: #ff7f00; /* Darker orange on hover */
+}
+
+.menu-item-admin button {
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+/* Modal styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.confirm-btn,
+.cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirm-btn {
+    background-color: #d9534f;
+    color: white;
+}
+
+.cancel-btn {
+    background-color: #5bc0de;
+    color: white;
+}
